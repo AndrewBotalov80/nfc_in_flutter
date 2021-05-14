@@ -481,7 +481,7 @@ class NDEFRecord {
       "id": id ?? "",
       "payload": payload ?? "",
       "type": type ?? "",
-      "tnf": tnf ?? "unknown",
+      "tnf": tnf,
       "languageCode": languageCode,
     };
   }
